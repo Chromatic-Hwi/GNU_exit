@@ -7,8 +7,8 @@
  
  ## 파일 안내
  
- 1. install 파일이 3개 존재합니다. 모두 실행해주세요. (cmd로 실행되며, 병합 에러가 나서 개별로 배포합니다.)<br/>
-    파이썬 버전 차이로 인해 exe 파일이 제대로 실행되지 않는다면 cmd 창에서 아래 3개 명령어를 실행해주세요.<br/>
+ 1. install_first 배치 파일을 제일 먼저 실행해주세요. <br/>
+    파일 오류로 인해 exe 파일이 제대로 실행되지 않는다면 cmd 창에서 아래 3개 명령어를 실행해주세요.<br/>
     > python -m pip install openpyxl <br/>
     > python -m pip install pandas <br/>
     > python -m pip install selenium <br/>
