@@ -23,7 +23,7 @@ driver.maximize_window()
 
 driver.find_element(By.XPATH,'//*[@id="userId"]').send_keys(ID)
 driver.find_element(By.XPATH,'//*[@id="password"]').send_keys(PW)
-driver.find_element(By.XPATH,'//*[@id="content"]/div[1]/div/a').click()
+driver.find_element(By.XPATH,'/html/body/div[3]/section/div/div[1]/div/div[1]/a').click()
 
 driver.find_element(By.XPATH,'//*[@id="gnb"]/ul/li[1]/a').click()
 
