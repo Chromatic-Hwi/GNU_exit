@@ -12,16 +12,12 @@
     > python -m pip install openpyxl <br/>
     > python -m pip install pandas <br/>
     > python -m pip install selenium <br/>
- 
- 2. 크롬드라이버는 101.0.4951 버전을 첨부했습니다. 
-  
-    크롬의 우측탭 -> 도움말 -> Chrome 정보 에서 버전을 확인하고<br/>
-    https://chromedriver.chromium.org/downloads  에서 최신 버전을 다운로드할 수 있습니다.
-    
- 3. Login_info.txt 파일에 각 칸에 맞게 개인정보를 입력해주세요. <br/>
+    > python -m pip install webdriver-manager <br/>
+      
+ 2. Login_info.txt 파일에 각 칸에 맞게 개인정보를 입력해주세요. <br/>
     공백은 허용되지 않습니다.
     
- 4. 불필요한 동작을 방지하기 위해 두개의 실행 파일로 나눴습니다. <br/>
+ 3. 불필요한 동작을 방지하기 위해 두개의 실행 파일로 나눴습니다. <br/>
     필요 목적에 맞게 선택해서 사용하시면 됩니다.
  
  <br/>
