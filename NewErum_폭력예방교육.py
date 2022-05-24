@@ -42,23 +42,24 @@ driver.find_element(By.XPATH,'/html/body/div[2]/div[2]/aside/nav/ul/li[2]/div/ul
 N=1
 while(True):
     try:
+        time.sleep(0.2)
         Pro_Name=str(driver.find_element(By.XPATH,'//*[@id="tilesContent"]/div[2]/table/tbody/tr['+str(N)+']/td[1]/a').text)
         if Pro_Name=="2022년 폭력예방교육":
             break
         else:
-            time.sleep(0.5)
+            time.sleep(0.2)
             N+=1
     except NoSuchElementException:
             print("폭력예방교육을 신청하지 않으신 것 같습니다.")
             driver.quit()
 
 driver.find_element(By.XPATH,'//*[@id="tilesContent"]/div[2]/table/tbody/tr['+str(N)+']/td[7]/a').click()
-time.sleep(0.5)
+time.sleep(0.2)
 
 Tab_Address = driver.window_handles
-time.sleep(0.5)
+time.sleep(0.2)
 driver.switch_to.window(Tab_Address[1])
-time.sleep(0.5)
+time.sleep(0.2)
 driver.find_element(By.XPATH,'//*[@id="sidenav"]/nav/ul/div/ul/li[2]/a').click()
 
 for i in range(2, 27):
