@@ -8,7 +8,7 @@
  ## 파일 안내
  
  1. install_first 배치 파일을 제일 먼저 실행해주세요. <br/>
-    파일 오류로 인해 exe 파일이 제대로 실행되지 않는다면 cmd 창에서 아래 3개 명령어를 실행해주세요.<br/>
+    파일 오류로 인해 exe 파일이 제대로 실행되지 않는다면 cmd 창에서 아래 4개 명령어를 실행해주세요.<br/>
     > python -m pip install openpyxl <br/>
     > python -m pip install pandas <br/>
     > python -m pip install selenium <br/>
